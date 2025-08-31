@@ -17,8 +17,6 @@ def count_letters(text):
                 count[letter]=1
     return count
 
-def sort_on(item):
-    return item["num"]
 
 def sorting(dictionary):
     list_count=[]
@@ -27,5 +25,5 @@ def sorting(dictionary):
         temp_1["char"]=ch
         temp_1["num"]=num
         list_count.append(temp_1)
-    list_count.sort(reverse=True, key=sort_on)
+    list_count.sort(reverse=True, key=list_count.item["num"])
     return list_count

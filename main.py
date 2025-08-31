@@ -1,5 +1,5 @@
 import sys
-from stats import get_book_text,count_words,count_letters,sort_on,sorting
+from stats import get_book_text,count_words,count_letters,sorting
 
 def main():
     if len(sys.argv) != 2:
